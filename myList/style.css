@@ -1,0 +1,58 @@
+* {
+  font-family: 'Abel', sans-serif;
+}
+
+main {
+  width: 300px;
+  margin: 50px auto;
+  border: 3px solid #ccc;
+}
+
+form {
+  height: 30px;
+  white-space: nowrap;
+}
+
+#text {
+  width: 190px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  padding: 0 10px;
+  outline: none;
+  font-size: 1em;
+}
+
+#button {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: -1%;
+  text-align: center;
+  color: #fff;
+  background-color: #c50050;
+}
+
+#button:active {
+  color: #c50050;
+  background-color: #eee;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+li:nth-child(even){
+  background-color: #fff;
+}
