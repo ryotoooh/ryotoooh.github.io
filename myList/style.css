@@ -17,8 +17,8 @@ form {
   width: 190px;
   height: 30px;
   line-height: 30px;
-  border: none;
   padding: 0 10px;
+  border: none;
   outline: none;
   font-size: 1em;
 }
@@ -28,7 +28,7 @@ form {
   width: 90px;
   height: 30px;
   line-height: 30px;
-  margin-left: -1%;
+  float: right;
   text-align: center;
   color: #fff;
   background-color: #c50050;
