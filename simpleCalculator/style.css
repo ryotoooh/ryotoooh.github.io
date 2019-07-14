@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body, input {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;  
+}
+
+/* center horizontally and vertically contents */
+.container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center {
+	width: 350px;
+}
+
+.top, .middle {
+	margin-bottom: 10%;
+}
+
+.middle {
+	display: flex; /* remove 4px space between contents */
+}
+
+.input, .result, .button {
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.input, .result {
+	border-bottom: 2px solid black;
+}
+
+.input {
+	width: 100%;
+}
+
+.button {
+	width: 50%;
+	background-color: #fff;
+}
+
+.button:active {
+	color: #f60;
+}
+
+.result {
+	width: 100%;
+}
+
+/* remove number input spin box */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+/* remove focus border for Chrome */
+*:focus {
+    outline: none;
+}
