@@ -72,6 +72,12 @@ input[type=number] {
     -moz-appearance:textfield; /* Firefox */
 }
 
+/* remove rounded corners and glare on inputs */
+input {
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
 /* remove focus border for Chrome */
 *:focus {
     outline: none;
