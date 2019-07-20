@@ -33,8 +33,10 @@ body, input {
 	display: flex; /* remove 4px space between contents */
 }
 
-/* remove rounded corners and glare on inputs */
-input, .input, .button, .result {
+/* remove rounded corners and glare on inputs for iOS */
+input[type=number],
+input[type=button],
+input[type=text] {
     -webkit-appearance: none;
     -webkit-border-radius:0; 
     border-radius:0;

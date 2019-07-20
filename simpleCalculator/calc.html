@@ -6,15 +6,15 @@
 	<title>Simple Calculator</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body ontouchstart="">
 	<div class="container">
 		<div class="center">
 			<form>
 				<div class="top">
-					<input class="input" type="number" name="firstNum" id="firstNum" placeholder="0" />
+					<input class="input" type="number" pattern="\d*" name="firstNum" id="firstNum" placeholder="0" />
 				</div>
 				<div class="top">
-					<input class="input" type="number" name="secondNum" id="secondNum" placeholder="0" />
+					<input class="input" type="number" pattern="\d*" name="secondNum" id="secondNum" placeholder="0" />
 				</div>
 				<div class="middle">
 					<input class="button" type="button" name="add" id="add" value="&plus;">
