@@ -4,7 +4,7 @@ html, body {
 }
 
 body, input {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;  
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* center horizontally and vertically contents */
@@ -38,7 +38,7 @@ input[type=number],
 input[type=button],
 input[type=text] {
     -webkit-appearance: none;
-    -webkit-border-radius:0; 
+    -webkit-border-radius:0;
     border-radius:0;
 }
 
@@ -71,10 +71,10 @@ input[type=text] {
 }
 
 /* remove number input spin box */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
- 	-webkit-appearance: none; 
-  	margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+ 	-webkit-appearance: none;
+  	margin: 0;
 }
 
 input[type=number] {
